@@ -1,1 +1,4 @@
+Two other solutions that could have been used are:
 
+1. creating the existing repository into my GitHub account.
+2. Cloning the existing repository directly using Git commands.
