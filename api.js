@@ -40,6 +40,9 @@ app.get('/secret-check', (req, res) => {
 
 });
 
+app.get('/api', (req, res) => {
+  res.sen('Hello');
+});
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
